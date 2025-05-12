@@ -1,7 +1,7 @@
 # IOT smart home
 
-#📘 Smart Home: Living Room — Network Simulation
-#📝 Overview
+# 📘 Smart Home: Living Room — Network Simulation
+# 📝 Overview
 This project simulates a Smart Home - Living Room environment using Cisco Packet Tracer, focusing on the integration of IoT devices, wireless connectivity, and basic automation. It demonstrates how various smart devices can interact within a LAN, managed by a central home gateway, and controlled via a remote access solution or home automation dashboard.
 
 #🧱 Topology Summary
