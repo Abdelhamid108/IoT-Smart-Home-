@@ -1,10 +1,9 @@
-# IOT smart home
 
 # 📘 Smart Home: Living Room — Network Simulation
 # 📝 Overview
 This project simulates a Smart Home - Living Room environment using Cisco Packet Tracer, focusing on the integration of IoT devices, wireless connectivity, and basic automation. It demonstrates how various smart devices can interact within a LAN, managed by a central home gateway, and controlled via a remote access solution or home automation dashboard.
 
-#🧱 Topology Summary
+# 🧱 Topology Summary
 The topology consists of the following main components:
 
 Device Type	Quantity	Purpose
@@ -14,7 +13,7 @@ Generic Laptop/PC	1–2	Controls, monitors, and configures devices.
 Smartphone/Tablet	1	Mobile control and monitoring.
 Cloud/Server	Optional	Remote access or external control simulation.
 
-#🔌 Connectivity
+# 🔌 Connectivity
 Wireless Communication is used to link IoT devices to the Home Gateway.
 
 Devices use IPv4 DHCP for address assignment (via the Home Gateway).
@@ -23,7 +22,7 @@ Control center (PC/laptop) is connected via Ethernet or Wi-Fi.
 
 The smartphone is connected wirelessly to demonstrate mobile control.
 
-#📱 Smart Devices Used
+# 📱 Smart Devices Used
 These devices are typically found in the simulation:
 
 Smart Lamp – Can be turned on/off remotely.
@@ -36,7 +35,7 @@ Thermostat – Monitors and adjusts room temperature.
 
 Door Sensor or Camera – For security purposes (if included).
 
-#🛠️ Configuration Steps
+# 🛠️ Configuration Steps
 Setup Home Gateway:
 
 Configure DHCP to assign IPs to IoT devices.
@@ -61,19 +60,19 @@ Open the IoT Monitor or Controller App.
 
 Link devices for real-time status and control.
 
-#🤖 Automation Examples
+# 🤖 Automation Examples
 If motion detected, then turn on light for 1 minute.
 
 If temperature > 30°C, then turn on fan.
 
 Scheduled events: Turn off all devices at midnight.
 
-#🌐 Remote Access (Optional)
+# 🌐 Remote Access (Optional)
 Simulate internet access via a cloud object.
 
 Configure port forwarding on the Home Gateway to allow smartphone control from outside.
 
-#💡 Educational Purpose
+# 💡 Educational Purpose
 This simulation is designed to:
 
 Demonstrate basic IoT principles.
