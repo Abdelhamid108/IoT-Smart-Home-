@@ -1,84 +1,104 @@
+# 🏠 Smart Home Project | IoT Network Simulation using Cisco Packet Tracer
 
-# 📘 Smart Home: Living Room — Network Simulation
-# 📝 Overview
-This project simulates a Smart Home - Living Room environment using Cisco Packet Tracer, focusing on the integration of IoT devices, wireless connectivity, and basic automation. It demonstrates how various smart devices can interact within a LAN, managed by a central home gateway, and controlled via a remote access solution or home automation dashboard.
+## 📘 Overview
 
-# 🧱 Topology Summary
-The topology consists of the following main components:
+This project was developed as part of the **Wireless Communication course**, where we designed a complete **Smart Home simulation** using **Cisco Packet Tracer**. The goal was to build a realistic, scalable, and secure smart home environment powered by IoT technologies and supported by a functional network infrastructure.
 
-Device Type	Quantity	Purpose
-Home Gateway	1	Provides routing, DHCP, and wireless access.
-Smart Devices	4+	Smart lamp, smart fan, motion sensor, etc.
-Generic Laptop/PC	1–2	Controls, monitors, and configures devices.
-Smartphone/Tablet	1	Mobile control and monitoring.
-Cloud/Server	Optional	Remote access or external control simulation.
+---
 
-# 🔌 Connectivity
-Wireless Communication is used to link IoT devices to the Home Gateway.
+## 🎯 Project Objectives
 
-Devices use IPv4 DHCP for address assignment (via the Home Gateway).
+- Design a secure and modular smart home architecture.
+- Integrate IoT devices with automation logic.
+- Simulate emergency handling using embedded systems.
+- Enable remote access to critical components via cloud simulation.
+- Create a hybrid (wired + wireless) network infrastructure.
+- Emulate a full ISP and mobile access environment.
 
-Control center (PC/laptop) is connected via Ethernet or Wi-Fi.
+---
 
-The smartphone is connected wirelessly to demonstrate mobile control.
+## 🧱 System Architecture
 
-# 📱 Smart Devices Used
-These devices are typically found in the simulation:
+### 🖥️ Network Infrastructure
 
-Smart Lamp – Can be turned on/off remotely.
+- **Home Gateway:** Central server for local devices (e.g., lights, fans).
+- **Cloud ISP Simulation:** Enables remote access to critical components like cameras and doors.
+- **Cell Towers:** Simulate smartphone access from outside the home.
+- **Routers and Switches:** Manage wired and wireless connectivity.
 
-Smart Fan – Controlled based on temperature or manual settings.
+---
 
-Motion Sensor – Detects movement and triggers actions (e.g., lights).
+## 🔌 IoT Devices Used
 
-Thermostat – Monitors and adjusts room temperature.
+### 🧠 Sensors
+- Motion sensors  
+- Temperature sensors  
+- Fire detectors  
+- Smoke detectors  
+- Water level sensors  
+- Soil moisture sensors  
+- Door and window sensors  
 
-Door Sensor or Camera – For security purposes (if included).
+### ⚙️ Actuators & Smart Devices
+- Smart lights  
+- Smart fans  
+- Sprinkler system  
+- Water drainage system  
+- Alarms  
+- Surveillance cameras  
 
-# 🛠️ Configuration Steps
-Setup Home Gateway:
+---
 
-Configure DHCP to assign IPs to IoT devices.
+## 🔄 IoT Automation Logic
 
-Enable Wireless with SSID and security (e.g., WPA2).
+Implemented via Cisco Packet Tracer’s **IoT Logic Editor**, including:
 
-Connect Smart Devices:
+- Lights turn on based on motion and time (day/night).
+- Fans activate when room temperature exceeds thresholds.
+- Alarms trigger in “Away” mode upon motion detection.
+- Lawn sprinklers activate based on soil moisture or schedule.
+- Drainage pump turns on automatically when water level is high.
+- Smoke detection triggers alarm and safety response.
 
-Set SSID on each device.
+---
 
-Ensure each device gets an IP from the gateway.
+## 🔥 Embedded System for Fire Response
 
-Automation Scripts (Optional):
+We implemented a **local standalone embedded system** (using MCU modules) between fire detectors and sprinklers. This allows immediate reaction to fires **without relying on the central server**.
 
-Use the "Event Planning" tab in devices to schedule actions.
+### ✅ Benefits:
+- Instant local response  
+- Reduced latency in emergencies  
+- Network-independent safety  
+- Follows real-world embedded safety standards  
+- Modular design – scalable for large homes  
 
-Example: Motion Sensor triggers the lamp.
+---
 
-PC/Tablet Configuration:
+## 🌐 Remote Access & Cloud Simulation
 
-Open the IoT Monitor or Controller App.
+- Simulated ISP and DNS services
+- Cloud access for sensitive devices (cameras, doors)
+- Local server handles standard devices (lights, fans)
+- Simulated mobile access via smartphone and tablet interfaces
+- Web dashboard control interface simulated via HTML on Packet Tracer servers
 
-Link devices for real-time status and control.
+---
 
-# 🤖 Automation Examples
-If motion detected, then turn on light for 1 minute.
+## 🧩 Advanced Features
 
-If temperature > 30°C, then turn on fan.
+- **Smart Modes:** "Home" vs "Away" modes alter behavior dynamically.
+- **Hybrid Network:** Wired + wireless mix for realistic conditions.
+- **Room-Based Organization:** Devices grouped per room for clarity.
+- **Multi-device Control:** Via PC, tablet, or smartphone.
+- **Failover & Safety:** Fire response doesn’t rely on network stability.
 
-Scheduled events: Turn off all devices at midnight.
+---
 
-# 🌐 Remote Access (Optional)
-Simulate internet access via a cloud object.
-
-Configure port forwarding on the Home Gateway to allow smartphone control from outside.
-
-# 💡 Educational Purpose
-This simulation is designed to:
-
-Demonstrate basic IoT principles.
-
-Practice wireless configuration and IP addressing.
-
-Learn about smart automation and event-driven actions.
-
-Understand device communication within a LAN.
+## 👥 Team Members
+- Abdelhamid ([@Abdelhamid108](https://github.com/Abdelhamid108))
+- Marwan ([@marwan779](https://github.com/marwan779))
+- Fady Ahsraf ([fady1559](https://github.com/fady1559)) 
+- Ahmed Kandil ([@Ahmed-Kandil11](https://github.com/Ahmed-Kandil11))  
+- Nadin Hisham  ([@nadin54](https://github.com/nadin54)) 
+ 
