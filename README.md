@@ -215,13 +215,13 @@ Follow these steps to explore the simulation features in Cisco Packet Tracer.
 
 ## 8. Contributors & Team
 
-| Member | Role | GitHub Profile |
-| :---: | :---: | :---: |
-| **Abdelhamid** | Project Lead | [@Abdelhamid108](https://github.com/Abdelhamid108) |
-| **Marwan** | Automation | [@marwan779](https://github.com/marwan779) |
-| **Fady Ashraf** | Sensors | [fady1559](https://github.com/fady1559) |
-| **Ahmed Kandil** | Design | [@Ahmed-Kandil11](https://github.com/Ahmed-Kandil11) |
-| **Nadin Hisham** | Testing | [@nadin54](https://github.com/nadin54) |
+| Member | GitHub Profile |
+| :---: | :---: |
+| **Abdelhamid**   | [@Abdelhamid108](https://github.com/Abdelhamid108)   |
+| **Marwan**       | [@marwan779](https://github.com/marwan779)           |
+| **Fady Ashraf**  | [fady1559](https://github.com/fady1559)              |
+| **Ahmed Kandil** | [@Ahmed-Kandil11](https://github.com/Ahmed-Kandil11) |
+| **Nadin Hisham** | [@nadin54](https://github.com/nadin54)               |
 
 ---
 _Project created for the Wireless Communication Course_
